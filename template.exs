@@ -43,7 +43,6 @@ defmodule MyEngine do
   end
 end
 
-# Sample Template
 template = """
 <%= if true do %>
   Hello, <%= name %>! Today is <%= day %>.
