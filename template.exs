@@ -35,7 +35,6 @@ defmodule MyEngine do
     state ++ [quote do: IO.write(to_string(unquote(expr)))]
   end
 
-  # Handle the end of the template
   def handle_end(state) do
     IO.inspect("End")
 
