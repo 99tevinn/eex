@@ -50,7 +50,6 @@ template = """
 <% end %>
 """
 
-# Evaluate the template using MyEngine
 result = EEx.eval_string(template, [name: "Alice", day: "Tuesday"], engine: MyEngine)
 
 IO.puts("\nFinal Output: #{result}")
