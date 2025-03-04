@@ -1,7 +1,7 @@
 defmodule MyEngine do
   @behaviour EEx.Engine
 
-  def init(_opts), do: %{velocity: 1}
+  def init(_opts), do: %{}
 
   def handle_begin(state) do
     IO.inspect({"Begin", state})
