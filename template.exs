@@ -17,7 +17,7 @@ defmodule MyEngine do
     end
   end
 
-  def handle_text(state, _meta, text) do
+  def handle_text(state, _list, text) do
     IO.inspect({"Text", text})
 
     state ++ [quote do: IO.write(unquote(text))]
