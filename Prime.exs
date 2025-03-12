@@ -26,4 +26,4 @@ defmodule Prime do
   end
 end
 
-IO.puts Prime.nth(6)
+
