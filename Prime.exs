@@ -25,5 +25,3 @@ defmodule Prime do
     Enum.all?(3..limit//2, fn x -> rem(n, x) != 0 end)
   end
 end
-
-
